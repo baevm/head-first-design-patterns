@@ -46,7 +46,7 @@ class MallardDuck extends Duck {
   }
 }
 
-function main() {
+function StrategyMain() {
   const mallardDuck = new MallardDuck()
   mallardDuck.performFly()
   mallardDuck.performQuack()
@@ -57,4 +57,4 @@ function main() {
   mallardDuck.performFly()
 }
 
-main()
+StrategyMain()
