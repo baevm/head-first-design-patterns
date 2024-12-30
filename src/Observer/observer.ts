@@ -83,7 +83,7 @@ class CurrentConditionsDisplay implements IObserver, DisplayElement {
   }
 }
 
-function main() {
+function ObserverMain() {
   const weatherData = new WeatherData()
 
   const currentConditionsDisplay = new CurrentConditionsDisplay(weatherData)
@@ -93,4 +93,4 @@ function main() {
   weatherData.setMeasurements(20, 50, 90)
 }
 
-main()
+ObserverMain()
